@@ -29,16 +29,8 @@ jobs:
           download-from: /Cyber/HCISPP.docx
           download-to: ./
 
-          # For those who set up Google Drive API client ID and secret themselves
-          google-client-id: ${{ secrets.GOOGLE_CLIENT_ID }}
-          google-client-secret: ${{ secrets.GOOGLE_CLIENT_SECRET }}
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+      # upload doc
+      - uses: actions/upload-artifact@v3
+        with:
+          name: my-artifact-upload
+          path: ./HCISPP.docx
