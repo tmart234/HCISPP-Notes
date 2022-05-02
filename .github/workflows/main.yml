@@ -22,6 +22,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+        with: 
+          ref: {{ github.head_ref }}
       - name: Download from Google Drive
         uses: satackey/action-google-drive@v1
         with:
@@ -32,8 +34,8 @@ jobs:
           google-client-id: ${{ secrets.GOOGLE_CLIENT_ID }}
           google-client-secret: ${{ secrets.GOOGLE_CLIENT_SECRET }}
 
-      # upload doc
-      - uses: actions/upload-artifact@v3
+        # commit doc
+      - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          name: my-artifact-upload
-          path: ./HCISPP.docx
+          commit_message: Apply document changes
+          file_pattern: *.docx *.md
