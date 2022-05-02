@@ -37,5 +37,4 @@ jobs:
         # commit doc
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: Apply document changes
-          file_pattern: *.docx *.md
+          file_pattern: *.docx
