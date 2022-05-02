@@ -33,7 +33,13 @@ jobs:
               # For those who set up Google Drive API client ID and secret themselves
           google-client-id: ${{ secrets.GOOGLE_CLIENT_ID }}
           google-client-secret: ${{ secrets.GOOGLE_CLIENT_SECRET }}
-
+      # Convert
+      - name: convert .docx
+        uses: baky0905/docx-to-md@v0.1.2
+       # env: {
+       #   # Use this parameter to determine where the generated .md(s) will be stored.
+       #   MD_DIR: '.'
+      #  }
         # commit docs
       - name: commit docs
         uses: stefanzweifel/git-auto-commit-action@v4
