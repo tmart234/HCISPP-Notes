@@ -26,7 +26,7 @@ jobs:
         uses: satackey/action-google-drive@v1
         with:
           skicka-tokencache-json: ${{ secrets.SKICKA_TOKENCACHE_JSON }}
-          download-from: /path/to/download
+          download-from: /Cyber/HCISPP.docx
           download-to: ./
 
           # For those who set up Google Drive API client ID and secret themselves
