@@ -34,7 +34,7 @@ jobs:
           google-client-id: ${{ secrets.GOOGLE_CLIENT_ID }}
           google-client-secret: ${{ secrets.GOOGLE_CLIENT_SECRET }}
 
-        # commit doc
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          file_pattern: *.docx
+        # commit docs
+      - name: commit docs
+        uses: stefanzweifel/git-auto-commit-action@v4
+
