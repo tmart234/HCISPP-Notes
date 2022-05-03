@@ -42,7 +42,7 @@ jobs:
             --wrap=none
             --reference-links
             --from=docx
-            --to=markdown
+            --to=gfm 
             --output="README.md" 
             "HCISPP.docx"
             
