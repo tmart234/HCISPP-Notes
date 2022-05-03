@@ -38,7 +38,6 @@ jobs:
         uses: docker://pandoc/core:2.9
         with:
           args: >-  # allows you to break string into multiple lines
-            --standalone
             --from=docx
             --to=markdown
             --extract-media="."
