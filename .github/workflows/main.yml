@@ -38,9 +38,11 @@ jobs:
         uses: docker://pandoc/core:2.9
         with:
           args: >-  # allows you to break string into multiple lines
+            --standalone
+            --wrap=none
+            --reference-links
             --from=docx
             --to=markdown
-            --extract-media="."
             --output="README.md" 
             "HCISPP.docx"
             
