@@ -1,30 +1,26 @@
-HCISPP Requirements
-===================
+# HCISPP Requirements
 
 2 years in Healthcare IT security. 3 hour exam and 125 multiple choice questions with a 70% minimum passing score.
 
-HCISPP Domains
-==============
+# HCISPP Domains
 
-1.  Healthcare Industry - 12%
+1.  > Healthcare Industry - 12%
 
-2.  Information Governance in Healthcare - 5%
+2.  > Information Governance in Healthcare - 5%
 
-3.  Information Technologies in Healthcare - 8%
+3.  > Information Technologies in Healthcare - 8%
 
-4.  Regulatory and Standards Environment - 15%
+4.  > Regulatory and Standards Environment - 15%
 
-5.  Privacy and Security in Healthcare - 25%
+5.  > Privacy and Security in Healthcare - 25%
 
-6.  Risk Management & Risk Assessment - 20%
+6.  > Risk Management & Risk Assessment - 20%
 
-7.  3rd party risk management - 15%
+7.  > 3rd party risk management - 15%
 
-Organizations in Healthcare
-===========================
+# Organizations in Healthcare
 
-Patients
---------
+## Patients
 
 Someone currently receiving care.
 
@@ -36,8 +32,7 @@ Has PHI and PII to protect
 
 PHI and medical history hard to correct once altered
 
-Providers
----------
+## Providers
 
 Single entity (Nurse, physician, therapist) or Organization (hospital, clinic, & virtual healthcare providers) that provides a medical service
 
@@ -67,7 +62,7 @@ Includes biomed techs and clinical engineer
 
 ### Other Medical
 
-Nurse, nurse's aid, registered nurses (RN/CRNA/CNM), nurse practitioner (NP), licensed practical nurse (LPN)
+Nurse, nurse’s aid, registered nurses (RN/CRNA/CNM), nurse practitioner (NP), licensed practical nurse (LPN)
 
 ### Administrators & environmental services
 
@@ -83,8 +78,7 @@ Business associate - provides different service ex: MSSP
 
 CHO - community healthcare organization
 
-Payers
-------
+## Payers
 
 Includes all Healthcare insurance providers
 
@@ -92,15 +86,13 @@ Indemnity Insurance vs Employer-based insurance provider
 
 Employer-based can be fully insured plan or self funded employee health benefit plan
 
-Healthcare Clearinghouse
-------------------------
+## Healthcare Clearinghouse
 
 Interprets claim data between providers and insurers. Clearing houses are a contracted vendor who reformats the claim into HIPAA transaction format and digitally forwards to third party payer.
 
-Medical Coding and classification systems
------------------------------------------
+## Medical Coding and classification systems
 
--   Medical coding is a set of International standards for billing and payments that is universally accepted (private & government)
+  - > Medical coding is a set of International standards for billing and payments that is universally accepted (private & government)
 
 Doctor Narrative is categorized as unstructured
 
@@ -134,8 +126,7 @@ ICF (international classification of functioning)- reporting disabilities
 
 Coding -\> Billing -\> reimbursement
 
-Revenue
--------
+## Revenue
 
 Claims typically require pre approval.
 
@@ -165,9 +156,9 @@ Deductible - annual out of pocket amount before coverage
 
 Co-insurance - ex: 80/20 or 70/30. A percentage between patient and 3rd party
 
--   Claims can be denied for not being a medical necessity and notified via those docs
+  - > Claims can be denied for not being a medical necessity and notified via those docs
 
--   Claims rejected for incorrect codes
+  - > Claims rejected for incorrect codes
 
 HIPAA Transaction & Code Sets (TCS) - rules for exchange of healthcare information. Uses CPT for procedure codes and uses ICD for diagnoses.
 
@@ -183,33 +174,33 @@ PHR - personal health record. For preventative health controls and personal devi
 
 NHN - national healthcare network
 
-HIT - health information technology or the electronic systems that health care professionals -- and increasingly, patients -- use to store, share, and analyze health information
+HIT - health information technology or the electronic systems that health care professionals – and increasingly, patients – use to store, share, and analyze health information
 
--   Hardware (medical device), software, or interoperability (HIE)
+  - > Hardware (medical device), software, or interoperability (HIE)
 
-HIE - health information exchange to appropriately access and securely share a patient\'s vital medical information electronically. improves quality and safety of patient care providing Interoperability + security
+HIE - health information exchange to appropriately access and securely share a patient's vital medical information electronically. improves quality and safety of patient care providing Interoperability + security
 
--   HIE is an example of HIT
+  - > HIE is an example of HIT
 
--   Interoperability: EHRs are maintained by individual physicians and organizations
+  - > Interoperability: EHRs are maintained by individual physicians and organizations
 
--   Security: reduce fraud and abuse
+  - > Security: reduce fraud and abuse
 
--   Provides feedback from actual practice to research
+  - > Provides feedback from actual practice to research
 
--   Provides backbone of technical infrastructure for national and state-level
+  - > Provides backbone of technical infrastructure for national and state-level
 
 Privacy
 
--   Minimum necessary use: ensures minimal and appropriate access
+  - > Minimum necessary use: ensures minimal and appropriate access
 
--   Audit logs: for detection of access violation
+  - > Audit logs: for detection of access violation
 
 Safety
 
--   Data integrity checks
+  - > Data integrity checks
 
--   Availability checks
+  - > Availability checks
 
 ### Standards
 
@@ -217,81 +208,81 @@ NIST frameworks are optional for healthcare in US
 
 HIPAA Identifies
 
-1.  Health Plans
+1.  > Health Plans
 
-2.  Providers of services
+2.  > Providers of services
 
-3.  Health information clearinghouses
+3.  > Health information clearinghouses
 
-4.  Business Associates (ex: subcontractors)
-
-    a.  Org responsible for associates use of data
+4.  > Business Associates (ex: subcontractors)
+    
+    1.  > Org responsible for associates use of data
 
 U.S. HIPAA Privacy Rule
 
--   Safe Harbor for limited data sets: Patient data, or limited data set, can be used for research without consent if 18 De-identifying requirements are met or expert has determined
+  - > Safe Harbor for limited data sets: Patient data, or limited data set, can be used for research without consent if 18 De-identifying requirements are met or expert has determined
 
--   Applies to physical/verbal matters
+  - > Applies to physical/verbal matters
 
--   Therapist notes are example of privacy data
+  - > Therapist notes are example of privacy data
 
 U.S. HIPAA Security Rule
 
--   Applies to electronic transmissions
+  - > Applies to electronic transmissions
 
 HITECH
 
--   Enhances HIPAA by declaring HHS Office of Civil Rights as enforcer of HIPAA privacy and security rules
+  - > Enhances HIPAA by declaring HHS Office of Civil Rights as enforcer of HIPAA privacy and security rules
 
--   Provides specificity about the adoption of EHRs
+  - > Provides specificity about the adoption of EHRs
 
 ISO 27001
 
 Focused on Information Security Management System (ISMS) aka the governance supporting infosec program. Can get 27001 certified.
 
-1.  Reqs of ISMS
+1.  > Reqs of ISMS
 
-2.  Management responsibility
+2.  > Management responsibility
 
-3.  Internal ISMS audit
+3.  > Internal ISMS audit
 
-4.  Management review of ISMS
+4.  > Management review of ISMS
 
-5.  ISMS improvement
+5.  > ISMS improvement
 
 ISO 27002
 
-Provides "code of practice" for Infosec management. Used with 27001.
+Provides “code of practice” for Infosec management. Used with 27001.
 
 Control Objectives:
 
-1.  Security Policy
+1.  > Security Policy
+    
+    1.  > Provides management guidance and support for infosec
 
-    a.  Provides management guidance and support for infosec
+2.  > Organization and Information Security
+    
+    1.  > Formal security mechanism in org
 
-2.  Organization and Information Security
+3.  > Asset management
 
-    a.  Formal security mechanism in org
+4.  > Human Resources security
 
-3.  Asset management
+5.  > Physical and environmental security
 
-4.  Human Resources security
+6.  > Communications and operations management
 
-5.  Physical and environmental security
+7.  > Access control
 
-6.  Communications and operations management
+8.  > Information system acquisition, development and maintenance
 
-7.  Access control
+9.  > Information security incident management
 
-8.  Information system acquisition, development and maintenance
+10. > Business continuity management
 
-9.  Information security incident management
+11. > Compliance
 
-10. Business continuity management
-
-11. Compliance
-
-Leaders must act on known risks!
+Leaders must act on known risks\!
 
 ### Policy
 
@@ -301,32 +292,31 @@ Laws -\> General Organizational Policy (security statement) -\> Functional Imple
 
 #### Writing security policy
 
--   Policy should survive up to 5 years
+  - > Policy should survive up to 5 years
 
--   Policy creation and maintenance is defined
+  - > Policy creation and maintenance is defined
 
--   Don't be too specific or include technical implementation details
+  - > Don’t be too specific or include technical implementation details
 
--   Directive wording and keep short
+  - > Directive wording and keep short
 
--   Review w management sign off and employees acknowledging
+  - > Review w management sign off and employees acknowledging
 
--   Adjust policies based on periodic review of policies or incidents
+  - > Adjust policies based on periodic review of policies or incidents
 
 #### Policy types
 
--   Organizational
+  - > Organizational
+    
+      - > Management or program level
 
-    -   Management or program level
+  - > Functional (issues specific)
+    
+      - > Ex: internet browsing or email use
 
--   Functional (issues specific)
+  - > System specific
 
-    -   Ex: internet browsing or email use
-
--   System specific
-
-Workflow Management 
--------------------
+## Workflow Management 
 
 Provider processes. Often automated with sensitive data and legacy systems.
 
@@ -342,37 +332,37 @@ HCFAC - agency for fraud and abuse prevention
 
 Breaches can lead to attacker using victims medical services and therefore an erroneous EHR that can cause adverse medical outcomes.
 
-Breaches most likely to happen in the "dispose" information lifecycle phase
+Breaches most likely to happen in the “dispose” information lifecycle phase
 
 HIPAA
 
--   mandatory breach rule
+  - > mandatory breach rule
 
--   Safe harbor provision for encrypted information
+  - > Safe harbor provision for encrypted information
 
 HITECH Breach Rule
 
--   Notify individuals within 60 days
+  - > Notify individuals within 60 days
 
--   Report breaches of 500 or more to HHS Office of civil rights promptly (60 days)
+  - > Report breaches of 500 or more to HHS Office of civil rights promptly (60 days)
 
--   Report less than 500 annually
+  - > Report less than 500 annually
 
--   Mail letters of breach. Post on the org's website if 10 letters are returned to the sender.
+  - > Mail letters of breach. Post on the org’s website if 10 letters are returned to the sender.
 
--   Conduct risk assessment after breach
+  - > Conduct risk assessment after breach
 
--   Safe harbor provision for encrypted information not having to be reported as breach
+  - > Safe harbor provision for encrypted information not having to be reported as breach
+    
+      - > Must be FIPS 140-2
 
-    -   Must be FIPS 140-2
-
--   \$1.5M fine
+  - > $1.5M fine
 
 States and local govt have breach rules too
 
 Healthcare Records Management
 
--   responsible for filing, storage, retention schedule, destruction, etc
+  - > responsible for filing, storage, retention schedule, destruction, etc
 
 Vendors - Business associates with relationship with healthcare facility (ISP, AWS, IR)
 
@@ -382,20 +372,19 @@ AMA - American medical association. Private.
 
 Joint commission - provides accreditation for a provider organization
 
-Roles in Regulatory Environment
--------------------------------
+## Roles in Regulatory Environment
 
--   Data owners: defines metrics for data and collects the data (ex: lab tech)
+  - > Data owners: defines metrics for data and collects the data (ex: lab tech)
 
--   Data controllers: responsible for management of data
+  - > Data controllers: responsible for management of data
 
--   Data custodians: determine access control to the data (ex: IT)
+  - > Data custodians: determine access control to the data (ex: IT)
 
--   Data processors: processes data but not responsible for data
+  - > Data processors: processes data but not responsible for data
 
--   Data steward: governance role to ensure quality of data
+  - > Data steward: governance role to ensure quality of data
 
--   Data protection commissioner (DPC)
+  - > Data protection commissioner (DPC)
 
 Regulators
 
@@ -411,21 +400,21 @@ NCSC - National Cyber Security Centre
 
 ### Information Flow Mapping/Models
 
--   State machine model: one point in time
+  - > State machine model: one point in time
 
--   Multilevel lattice model: strict layers of subjects and objects
+  - > Multilevel lattice model: strict layers of subjects and objects
 
--   Noninterference Model: limit higher classified info shared with lower privileged
+  - > Noninterference Model: limit higher classified info shared with lower privileged
+    
+      - > Ex: Bell-LaPadula where subjects can read information from objects at some of the classification levels or lower levels
 
-    -   Ex: Bell-LaPadula where subjects can read information from objects at some of the classification levels or lower levels
+  - > Matrix based models: one-to-one relationships
 
--   Matrix based models: one-to-one relationships
+  - > Information flow models: data allowed or not allowed between objects
 
--   Information flow models: data allowed or not allowed between objects
+  - > Biba integrity model: subject prevented from reading less accurate (or with integrity) objects but can read objects more accurate
 
--   Biba integrity model: subject prevented from reading less accurate (or with integrity) objects but can read objects more accurate
-
--   Brewer-Nash: subject has access to objects with sensitive information associated with two competing parties to prevent conflict of interest
+  - > Brewer-Nash: subject has access to objects with sensitive information associated with two competing parties to prevent conflict of interest
 
 ### HMO vs PPO vs POS
 
@@ -443,11 +432,11 @@ NIP - national provider identifier
 
 Healthcare provider taxonomy code:
 
--   level 1 - provider type
+  - > level 1 - provider type
 
--   Level 2 - classification
+  - > Level 2 - classification
 
--   Level 3 - specialization
+  - > Level 3 - specialization
 
 ### Data Exchange
 
@@ -455,7 +444,7 @@ HL7 - health level 7 - deals with layer 7 OSI transfer for ePHI
 
 DICOM - HIPAA protected digital imaging communications
 
-NIMIS - Ireland's version of DICOM
+NIMIS - Ireland’s version of DICOM
 
 IHE - integrating the healthcare enterprise - sharing ePHI between providers/orgs using ICTs
 
@@ -463,60 +452,57 @@ IHE - integrating the healthcare enterprise - sharing ePHI between providers/org
 
 DRS (designated record set) - legal Records about individuals used by coverage entities to make decisions about care
 
-Regulatory Environment
-======================
+# Regulatory Environment
 
 Local and state laws to federal and international laws because of interoperability
 
 HIPAA Security Rule requires appropriate administrative, physical and technical safeguards to ensure the confidentiality, integrity, and security of electronic protected health information
 
-Privacy and Security in Healthcare
-==================================
+# Privacy and Security in Healthcare
 
-Information Security
---------------------
+## Information Security
 
 C.I.A. Are the pillars
 
 Hashes: one way function for Integrity of data.
 
--   Good for preventing MitM attacks.
+  - > Good for preventing MitM attacks.
 
--   MD5 is broken in 1996
+  - > MD5 is broken in 1996
 
 Encryption for confidentiality. Symmetric vs Asymmetric
 
--   Symmetric for bulk data. DES is broken.
+  - > Symmetric for bulk data. DES is broken.
 
--   Hardware encryption. Ex: encrypted SSD or a TPM
+  - > Hardware encryption. Ex: encrypted SSD or a TPM
 
--   Software encryption. Ex: bitlocker and PGP
+  - > Software encryption. Ex: bitlocker and PGP
 
 Digital signatures or HMAC for authenticity
 
 Non-repudiation to prevent of denying actions
 
--   Ex: a compromised shared password
+  - > Ex: a compromised shared password
 
 Access Control
 
-Should be Least privilege aka "minimum necessary" under HIPAA
+Should be Least privilege aka “minimum necessary” under HIPAA
 
--   MAC: mandatory access control. Most restrictive; for govt. Decision made by central authority, not object owner. Matches subject label to object label. Example is lattice-based access control (LBAC. based on the upper and lower bounds interaction between any combination of objects and subjects)
+  - > MAC: mandatory access control. Most restrictive; for govt. Decision made by central authority, not object owner. Matches subject label to object label. Example is lattice-based access control (LBAC. based on the upper and lower bounds interaction between any combination of objects and subjects)
 
--   DAC: discretionary access control. Least restrictive (used in Windows & Unix). Based on object ownership and granting subjects access.
+  - > DAC: discretionary access control. Least restrictive (used in Windows & Unix). Based on object ownership and granting subjects access.
 
--   RBAC: role based access control or non-discretionary. Central authority in an organization (ex: AD) that aligns permissions to granted roles
-
-    -   Rule based access control: flexible RBAC variant. Set rules to dictate the assignment of roles (decentralized authority. Usually governed by data custodians)
+  - > RBAC: role based access control or non-discretionary. Central authority in an organization (ex: AD) that aligns permissions to granted roles
+    
+      - > Rule based access control: flexible RBAC variant. Set rules to dictate the assignment of roles (decentralized authority. Usually governed by data custodians)
 
 Authenticity
 
--   Something you know
+  - > Something you know
 
--   Something you have
+  - > Something you have
 
--   Something you are
+  - > Something you are
 
 PKI - infrastructure for managing asymmetric keys. Digital signatures use PKI and asymmetric keys.
 
@@ -524,40 +510,39 @@ PKI - infrastructure for managing asymmetric keys. Digital signatures use PKI an
 
 Per NIST 800-34 7 step process:
 
-1.  Develop the contingency plan policy statement
+1.  > Develop the contingency plan policy statement
 
-2.  Conduct the business impact analysis (BIA)
+2.  > Conduct the business impact analysis (BIA)
+    
+    1.  > Impact of Critical processes and How quickly business must resume in terms of: maximum time down (MTD), recovery time objective (RTO) and recovery point objective (RPO)
 
-    a.  Impact of Critical processes and How quickly business must resume in terms of: maximum time down (MTD), recovery time objective (RTO) and recovery point objective (RPO)
+3.  > Identify preventive controls
 
-3.  Identify preventive controls
+4.  > Create contingency strategies
 
-4.  Create contingency strategies
+5.  > Develop a information system contingency plan
+    
+    1.  > Supporting information (ex: plan’s scope)
+    
+    2.  > Activation of plan and notification of key individuals
+    
+    3.  > Recovery phase. How recovery will occur.
+    
+    4.  > Reconstitution phase. What needs to occur
+    
+    5.  > Appendices and additional plan detial
 
-5.  Develop a information system contingency plan
+6.  > Ensure plan testing, training, and exercises
 
-    a.  Supporting information (ex: plan's scope)
+7.  > Ensure plan maintenance
+    
+    1.  > Update plan
 
-    b.  Activation of plan and notification of key individuals
+## Privacy
 
-    c.  Recovery phase. How recovery will occur.
+“Separation of duties” - checks and balances in process to ensure minimum 2 people must collude to commit fraud or for fraud to happen
 
-    d.  Reconstitution phase. What needs to occur
-
-    e.  Appendices and additional plan detial
-
-6.  Ensure plan testing, training, and exercises
-
-7.  Ensure plan maintenance
-
-    a.  Update plan
-
-Privacy
--------
-
-"Separation of duties" - checks and balances in process to ensure minimum 2 people must collude to commit fraud or for fraud to happen
-
-Privacy violations: Very old people (89+) can be de-identified due to fewer peers alive (although HIPAA has no age requirements). HIV positive patients don't need their status disclosed to providers like dentists.
+Privacy violations: Very old people (89+) can be de-identified due to fewer peers alive (although HIPAA has no age requirements). HIV positive patients don’t need their status disclosed to providers like dentists.
 
 GINA or genetic non discrimination act. Prevents genetics used for hiring or insurance coverage.
 
@@ -565,27 +550,25 @@ GINA or genetic non discrimination act. Prevents genetics used for hiring or ins
 
 Logs can Include:
 
--   User IDs
+  - > User IDs
 
--   Dates and times
+  - > Dates and times
 
--   System identity (MAC, IP address, host-name)
+  - > System identity (MAC, IP address, host-name)
 
--   Successful and Rejected access attempts
+  - > Successful and Rejected access attempts
 
 Logs should be:
 
--   retained for a specific period (org + regulatory)
+  - > retained for a specific period (org + regulatory)
 
--   Access Protected
+  - > Access Protected
 
--   Periodically reviewed by party other than log monitoring team
+  - > Periodically reviewed by party other than log monitoring team
 
-Risk Management
-===============
+# Risk Management
 
-Governance Structure
---------------------
+## Governance Structure
 
 Information owner/steward - business centric party that determines impact, cost, and access of info
 
@@ -597,43 +580,41 @@ End User - employee that transmits, stores, or deletes info
 
 Risk Assessment Team to include staff across all business units
 
-NIST 800-39 Risk Management Methodology
----------------------------------------
+## NIST 800-39 Risk Management Methodology
 
-1.  Framing risk
+1.  > Framing risk
+    
+    1.  > produce risk strategy, identify risk tolerance, assumptions, and constraints
 
-    a.  produce risk strategy, identify risk tolerance, assumptions, and constraints
+2.  > Assessing risk
+    
+    1.  > Identify threats, vulnerabilities, impact, likelihood, and determine risk
 
-2.  Assessing risk
+3.  > Responding to risk
+    
+    1.  > Identify consistent response to risk from org-wide perspective
 
-    a.  Identify threats, vulnerabilities, impact, likelihood, and determine risk
+4.  > Monitoring risk
+    
+    1.  > Continuously
 
-3.  Responding to risk
-
-    a.  Identify consistent response to risk from org-wide perspective
-
-4.  Monitoring risk
-
-    a.  Continuously
-
-Risk
-----
+## Risk
 
 Quantitative risk
 
--   Measurable ex: Annual Loss Expectancy
+  - > Measurable ex: Annual Loss Expectancy
 
 Qualitative risk
 
--   Descriptive "high, medium, low"
+  - > Descriptive “high, medium, low”
 
 Financial Risk
 
--   Can be transferred through insurance policy
+  - > Can be transferred through insurance policy
 
 Reputational risk
 
--   can't be "transferred"
+  - > can’t be “transferred”
 
 Risk strategy - what organization is going to do regarding risk management
 
@@ -643,13 +624,13 @@ Risk Tolerance - compliance based. defined by senior leadership rather than the 
 
 ### NIST 800-30 risk Assessment process outline
 
-1.  Prepare for assessment
+1.  > Prepare for assessment
 
-2.  Conduct risk assessment
+2.  > Conduct risk assessment
 
-3.  Communicate results of assessment
+3.  > Communicate results of assessment
 
-4.  Maintain assessment
+4.  > Maintain assessment
 
 ALE - annual loss expectancy
 
@@ -661,7 +642,7 @@ Threat - event with potential to adversely impact to organization
 
 Threat sources
 
--   Human (insider), environmental (bio waste), operational, natural (flood), technical (malicious code)
+  - > Human (insider), environmental (bio waste), operational, natural (flood), technical (malicious code)
 
 ### Asset Valuation
 
@@ -669,71 +650,69 @@ Tangible asset Valuation - physical presence. Original value minus depreciation
 
 Intangible asset valuation - non-physical ex: patents, IP, PHI
 
-Secure SDLC and Maturity Frameworks
------------------------------------
+## Secure SDLC and Maturity Frameworks
 
-[[HSCC's joint security plan (JSP)]{.underline}]
+[<span class="underline">HSCC’s joint security plan (JSP)</span>](https://healthsectorcouncil.org/the-joint-security-plan/)
 
-Controls
---------
+## Controls
 
 ### Cybersecurity best practices
 
-[[HSCC's Healthcare industry Cybersecurity Practices (HICP)]{.underline}]
+[<span class="underline">HSCC’s Healthcare industry Cybersecurity Practices (HICP)</span>](https://healthsectorcouncil.org/wp-content/uploads/2018/12/HICP-Main-508.pdf)
 
 ### Control Types
 
--   Corrective
+  - > Corrective
 
--   Preventive
+  - > Preventive
 
--   Detective
+  - > Detective
 
-HIPAA's security safeguard rules state that controls can be:
+HIPAA’s security safeguard rules state that controls can be:
 
--   Administrative/managementEnforced through policies, procedures, standards, and guidance
+  - > Administrative/managementEnforced through policies, procedures, standards, and guidance
+    
+      - > Ex: security management program
 
-    -   Ex: security management program
+  - > Operational
+    
+      - > People or processes that use people
+    
+      - > Physical controls are a type of operational control
 
--   Operational
-
-    -   People or processes that use people
-
-    -   Physical controls are a type of operational control
-
--   Technical
-
-    -   Software, hardware, and firmware
+  - > Technical
+    
+      - > Software, hardware, and firmware
 
 These controls types can be further refined and mapped to 18 NIST/ FIPS 200 control families
 
--   Access control - technical
+  - > Access control - technical
 
--   Awareness training - operational
+  - > Awareness training - operational
 
--   Audit and accountability - technical
+  - > Audit and accountability - technical
 
--   Security assessment and authorization - management
+  - > Security assessment and authorization - management
 
--   Configuration management - operational
+  - > Configuration management - operational
 
--   .....
+  - > …..
 
 ### Incident Response Timeline Controls
 
--   Directive
+  - > Directive
 
--   Deterrent
+  - > Deterrent
 
--   Preventive
+  - > Preventive
 
--   Compensating
+  - > Compensating
 
--   Detective
+  - > Detective
 
--   Corrective
+  - > Corrective
 
--   Recovery
+  - > Recovery
 
 Compensating controls lead to residual risk
 
@@ -741,35 +720,33 @@ Risk Acceptance: who is responsible for the risk?
 
 NIST 800-39 Multi-tired risk management process (strategic risk)
 
--   Tier 1: organization
+  - > Tier 1: organization
 
--   Tier 2: mission / business processes
+  - > Tier 2: mission / business processes
 
--   Tier 3: information systems
+  - > Tier 3: information systems
 
-```{=html}
-<!-- -->
-```
--   includes traceability and transparency of all risk based decisions
+<!-- end list -->
+
+  - > includes traceability and transparency of all risk based decisions
 
 NIST 800-37 Risk Management Framework (RMF)
 
-1.  Categorize information system
+1.  > Categorize information system
+    
+    1.  > Architecture descriptions and organizational inputs
 
-    a.  Architecture descriptions and organizational inputs
+2.  > Select security controls
 
-2.  Select security controls
+3.  > Implement security controls
 
-3.  Implement security controls
+4.  > Assess security controls
 
-4.  Assess security controls
+5.  > Authorize information system
 
-5.  Authorize information system
+6.  > Monitor security controls
 
-6.  Monitor security controls
-
-Other Risk Frameworks
----------------------
+## Other Risk Frameworks
 
 ISO 27000 family - international standard for security management
 
@@ -791,15 +768,15 @@ VAR - value at risk. Identify threats, estimate likelihood, estimate VAR, risk m
 
 SOMAP Risk Assessment Workflow
 
--   Data collection
+  - > Data collection
 
--   Threat analysis
+  - > Threat analysis
 
--   Vulnerability analysis
+  - > Vulnerability analysis
 
--   Risk acceptance
+  - > Risk acceptance
 
--   Risk treatment
+  - > Risk treatment
 
 Remediation/Corrective Action Plan or (CAP): what needs to be done? Ex: training, processes, controls, maintenance
 
@@ -809,105 +786,103 @@ Tactical Plan: initiative to support goals in strategic plan
 
 Risk Treatment options:
 
--   Mitigation
+  - > Mitigation
+    
+      - > Address and eliminate the risk
 
-    -   Address and eliminate the risk
+  - > Transfer
+    
+      - > Someone else’s problem
 
--   Transfer
+  - > Accept
+    
+      - > Ex low risk & high cost to fix
 
-    -   Someone else's problem
-
--   Accept
-
-    -   Ex low risk & high cost to fix
-
--   Avoid
+  - > Avoid
 
 Exception Handling: document exceptions. Describe in detail the duration, individual requesting, and additional risk from granting exception
 
 ### Risk Reporting Metrics
 
--   The threat
+  - > The threat
 
--   Risk (or likelihood/impact)
+  - > Risk (or likelihood/impact)
 
--   Cost of safeguard
+  - > Cost of safeguard
 
--   Residual risk remaining
+  - > Residual risk remaining
 
--   Timeframe
+  - > Timeframe
 
 KRI - key risk indicator - early signal for emerging risk
 
 KPI - key performance indicator - alert for underperformance of an asset
 
-Information Risk Assessment
-===========================
+# Information Risk Assessment
 
--   Identify, estimate, and prioritize risks
+  - > Identify, estimate, and prioritize risks
 
--   PHI has higher \$\$ value for criminals than PII
+  - > PHI has higher $$ value for criminals than PII
+    
+      - > Fraudulent billing or free care for criminal
 
-    -   Fraudulent billing or free care for criminal
-
--   During a breach, PHI has same impact regardless of form or where it is stored
+  - > During a breach, PHI has same impact regardless of form or where it is stored
 
 Adverse Outcomes
 
--   Financial loss
+  - > Financial loss
 
--   Repudiation loss
+  - > Repudiation loss
 
--   Regulatory/legal losses
+  - > Regulatory/legal losses
 
 Risk Assessment - identify infosec vulnerabilities, estimating value, and prioritizing
 
 Continuous Threat Monitoring and Information Sharing Organizations
 
--   Intelligence sources: H-ISAC, HITRUST C3, NCCIC, US-CERT, and CSIRT
+  - > Intelligence sources: H-ISAC, HITRUST C3, NCCIC, US-CERT, and CSIRT
 
--   [[HSCC's matrix]{.underline}] of information sharing organizations
+  - > [<span class="underline">HSCC’s matrix</span>](https://healthsectorcouncil.org/hic-miso-pdf/) of information sharing organizations
 
-HCISPP says external risk assessments are best because it's an impartial reviewer. This is because Infosec and info steward personnel could want to hide issues
+HCISPP says external risk assessments are best because it’s an impartial reviewer. This is because Infosec and info steward personnel could want to hide issues
 
 T.V.L.I. = threats \* vulnerabilities \* likelihood \* impact
 
--   Determine impact on organization's mission
+  - > Determine impact on organization’s mission
 
--   Determine cost of replacing information
+  - > Determine cost of replacing information
 
--   Determine who has a need for information & when
+  - > Determine who has a need for information & when
 
--   Determine information destruction
+  - > Determine information destruction
 
-Tools and techniques
---------------------
+## Tools and techniques
 
 ### NIST 800-30 Risk Assessment Process
 
 Information system risk management
 
-1.  Identify and characterize Asset
+1.  > Identify and characterize Asset
+    
+    1.  > Aka Information gathering. Assets that org owns, accesses, or uses under contract including all 3rd party access
+    
+    2.  > Arguably most important as this determines control baselines, assessment methodology, and impact of system
 
-    a.  Aka Information gathering. Assets that org owns, accesses, or uses under contract including all 3rd party access
+2.  > Threat identification (history of attack, intelligence)
 
-    b.  Arguably most important as this determines control baselines, assessment methodology, and impact of system
+3.  > Vulnerability Identification (test results, audit comments, sec requirements)
 
-2.  Threat identification (history of attack, intelligence)
+4.  > Control (or countermeasure) analysis (based on planned and current controls)
 
-3.  Vulnerability Identification (test results, audit comments, sec requirements)
+5.  > Likelihood determination (current controls, threat motivation, threat capacity)
 
-4.  Control (or countermeasure) analysis (based on planned and current controls)
+6.  > Impact Analysis (in terms of C.I.A.)
 
-5.  Likelihood determination (current controls, threat motivation, threat capacity)
+7.  > Risk determination (impact, likelihood, and controls)
 
-6.  Impact Analysis (in terms of C.I.A.)
+8.  > Produce Control recommendations
 
-7.  Risk determination (impact, likelihood, and controls)
-
-8.  Produce Control recommendations
-
-9.  Document results in risk Assessment report
+9.  > Document results in risk Assessment report
 
 ### NIST 800-66 Risk Assessment Process
 
@@ -915,51 +890,49 @@ Written for implementation of HIPAA security rule. Dictates encryption of ePHI.
 
 ### HITRUST CSF
 
--   Common Privacy and security framework for HIPAA and GDPR
+  - > Common Privacy and security framework for HIPAA and GDPR
 
 ### Assessment Tooling
 
 Organizational level HIPAA risk Assessment tooling
 
--   ONC's [[SRA Tool]{.underline}]
+  - > ONC’s [<span class="underline">SRA Tool</span>](https://www.healthit.gov/topic/privacy-security-and-hipaa/security-risk-assessment-tool)
 
--   HIMSS Risk Assessment Toolkit (discontinued?)
+  - > HIMSS Risk Assessment Toolkit (discontinued?)
 
 Application level:
 
--   [[HIMSS application security questionnaire]{.underline}]
+  - > [<span class="underline">HIMSS application security questionnaire</span>](https://www.himss.org/application-security-questionnaire)
 
--   [[HIMSS cloud computing risk Assessment]{.underline}]
+  - > [<span class="underline">HIMSS cloud computing risk Assessment</span>](https://www.himss.org/sites/hde/files/d7/HIMSSorg/Content/files/RA05_RA_Cloud_Computing.xlsx)
 
 NHS Data security and protection Toolkit (previously IG Toolkit)
 
--   an online self-assessment tool for UK orgs that allows organizations to measure their performance against the National Data Guardian's 10 data security standards (27002, data protection act 1998, confidentiality NHS code of practice)
+  - > an online self-assessment tool for UK orgs that allows organizations to measure their performance against the National Data Guardian’s 10 data security standards (27002, data protection act 1998, confidentiality NHS code of practice)
 
-Incident Management 
--------------------
+## Incident Management 
 
 Use risk Assessment data for input to:
 
--   Business continuity plan,
+  - > Business continuity plan,
 
--   incident response (IR) plan,
+  - > incident response (IR) plan,
 
--   disaster recovery (DR) plan
+  - > disaster recovery (DR) plan
 
-[[HSCC's Operational Continuity Cyber incident]{.underline}] (OCCI) guidance and checklist
+[<span class="underline">HSCC’s Operational Continuity Cyber incident</span>](https://healthsectorcouncil.org/occi/) (OCCI) guidance and checklist
 
 SAR - suspicious activity report
 
 PIR - post incident review
 
-Audits
-------
+## Audits
 
 Internal Audits: Not independent reviewer
 
 VS External Audits: independent reviewer
 
--   Both Requires corrective action plan
+  - > Both Requires corrective action plan
 
 Gap Analysis: gaps between identified risks and mitigating controls
 
@@ -967,125 +940,112 @@ Corrective Action Plan (CAP): enumerate resources required, identify milestones,
 
 Mitigation Actions
 
--   "Can it be tested?"
+  - > “Can it be tested?”
 
--   Produced by a Trusted source
+  - > Produced by a Trusted source
 
--   Cost effective
+  - > Cost effective
 
--   Addresses CIA
+  - > Addresses CIA
 
--   Can be "backed out"
+  - > Can be “backed out”
 
--   Creates no additional security issues
+  - > Creates no additional security issues
 
 NIST CSF: identify, protect, detect, respond, recover
 
-POA&M - list of activities, resources required, responsible person, and date for completion
+POA\&M - list of activities, resources required, responsible person, and date for completion
 
--   Does not include system downtime or other factors
+  - > Does not include system downtime or other factors
 
 Destruction of information to reduce storage costs, keep relevant info, speed up indexing
 
-Third Party Risk Management
-===========================
+# Third Party Risk Management
 
 ### Software
 
-[[HSCC's supply chain risk management guide]{.underline}]
+[<span class="underline">HSCC’s supply chain risk management guide</span>](https://healthsectorcouncil.org/HIC-SCRiM-v2/)
 
 ### Vendors
 
 Vendors must comply with HITECH and HIPAA laws
 
--   Have language in contract (BAA) w vendor/ business associate agreement
+  - > Have language in contract (BAA) w vendor/ business associate agreement
 
--   [[DHS will provide language]{.underline}] for HIPAA BAA
+  - > [<span class="underline">DHS will provide language</span>](https://www.hhs.gov/hipaa/for-professionals/covered-entities/sample-business-associate-agreement-provisions/index.html) for HIPAA BAA
 
--   [[HSCC's MC2]{.underline}] contract
+  - > [<span class="underline">HSCC’s MC2</span>](https://healthsectorcouncil.org/model-contract-language-for-medtech-cybersecurity-mc2/) contract
 
 Primary organization should create Risk potential for the introducing 3rd party vendor that contains:
 
--   Type of critical information shared w vendor
+  - > Type of critical information shared w vendor
 
--   nature of vendor's service
+  - > nature of vendor’s service
 
--   Amount and Type of data vendor has access to
+  - > Amount and Type of data vendor has access to
 
--   Frequency and sensitivity of data that is shared with vendor
+  - > Frequency and sensitivity of data that is shared with vendor
 
--   Method to access sensitive data
+  - > Method to access sensitive data
 
--   ISO/SSAE compliance (certs requiring external review)
+  - > ISO/SSAE compliance (certs requiring external review)
 
-```{=html}
-<!-- -->
-```
--   Employee background checks for 3rd party under any contract where org has legal, reg, and risk management requirements for protected information
+<!-- end list -->
 
--   Termination of 3rd parties has a high risk of leftover sensitive data. Destroy sensitive data as appropriate.
+  - > Employee background checks for 3rd party under any contract where org has legal, reg, and risk management requirements for protected information
+
+  - > Termination of 3rd parties has a high risk of leftover sensitive data. Destroy sensitive data as appropriate.
 
 Developing Contract w 3rd party, ensure vendors
 
--   Compliance
+  - > Compliance
 
--   Safeguards
+  - > Safeguards
 
--   Right to audit
-
-    -   As You can't ever fully transfer risk to vendor
+  - > Right to audit
+    
+      - > As You can’t ever fully transfer risk to vendor
 
 Relationship Management
 
-1.  Set Expectations
+1.  > Set Expectations
 
-2.  Vendor Compliance
+2.  > Vendor Compliance
 
-3.  Ensure informed/privacy Safeguards
+3.  > Ensure informed/privacy Safeguards
 
-4.  Audit vendor
+4.  > Audit vendor
 
-5.  Ensure Notification of breach
+5.  > Ensure Notification of breach
 
-6.  Location of access, storage, and processes
+6.  > Location of access, storage, and processes
 
-7.  Vendor Data destruction
+7.  > Vendor Data destruction
 
-8.  Vendor Employment verification
+8.  > Vendor Employment verification
 
-9.  Vendor employee Training
+9.  > Vendor employee Training
 
-10. Vendor subcontracting any work
+10. > Vendor subcontracting any work
 
-11. Disaster recovery plan / business continuity
+11. > Disaster recovery plan / business continuity
 
 Triggers of 3rd party assessment
 
--   The contract w vendor
+  - > The contract w vendor
 
 ISA - interconnection service agreement. documents that outlines expectations between two organizations to address items such as technical specifications and configuration responsibilities for interconnection
 
 Interconnection service agreement (ISA) contains:
 
--   Security & privacy controls
+  - > Security & privacy controls
 
--   Network use
+  - > Network use
 
--   Access limitations
+  - > Access limitations
 
--   Confidentiality requirements
+  - > Confidentiality requirements
 
--   Privileges
+  - > Privileges
 
--   Monitoring information
-
-  [[HSCC's joint security plan (JSP)]{.underline}]: https://healthsectorcouncil.org/the-joint-security-plan/
-  [[HSCC's Healthcare industry Cybersecurity Practices (HICP)]{.underline}]: https://healthsectorcouncil.org/wp-content/uploads/2018/12/HICP-Main-508.pdf
-  [[HSCC's matrix]{.underline}]: https://healthsectorcouncil.org/hic-miso-pdf/
-  [[SRA Tool]{.underline}]: https://www.healthit.gov/topic/privacy-security-and-hipaa/security-risk-assessment-tool
-  [[HIMSS application security questionnaire]{.underline}]: https://www.himss.org/application-security-questionnaire
-  [[HIMSS cloud computing risk Assessment]{.underline}]: https://www.himss.org/sites/hde/files/d7/HIMSSorg/Content/files/RA05_RA_Cloud_Computing.xlsx
-  [[HSCC's Operational Continuity Cyber incident]{.underline}]: https://healthsectorcouncil.org/occi/
-  [[HSCC's supply chain risk management guide]{.underline}]: https://healthsectorcouncil.org/HIC-SCRiM-v2/
-  [[DHS will provide language]{.underline}]: https://www.hhs.gov/hipaa/for-professionals/covered-entities/sample-business-associate-agreement-provisions/index.html
-  [[HSCC's MC2]{.underline}]: https://healthsectorcouncil.org/model-contract-language-for-medtech-cybersecurity-mc2/
+  - > Monitoring information
