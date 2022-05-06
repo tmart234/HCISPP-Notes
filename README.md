@@ -1,4 +1,4 @@
-# HCISPP Exam Requirements
+# [<span class="underline">HCISPP</span>](https://www.isc2.org/Certifications/HCISPP#) Exam Requirements
 
 2 years in Healthcare IT security. 3 hour exam and 125 multiple choice questions with a 70% minimum passing score.
 
@@ -244,7 +244,7 @@ NIST frameworks are optional for healthcare in US
 
   - > Provides specificity about the adoption of EHRs
 
-ISO 27001
+#### ISO 27001
 
 Focused on Information Security Management System (ISMS) aka the governance supporting infosec program. Can get 27001 certified.
 
@@ -666,10 +666,6 @@ Intangible asset valuation - non-physical ex: patents, IP, PHI
 
 ## Controls
 
-### Cybersecurity best practices
-
-[<span class="underline">HSCC’s Healthcare industry Cybersecurity Practices (HICP)</span>](https://healthsectorcouncil.org/wp-content/uploads/2018/12/HICP-Main-508.pdf)
-
 ### Control Types
 
   - > Corrective
@@ -728,7 +724,9 @@ Compensating controls lead to residual risk
 
 Risk Acceptance: who is responsible for the risk?
 
-NIST 800-39 Multi-tiered risk management process (strategic risk)
+#### NIST 800-39 Multi-tiered risk management process
+
+(strategic risk)
 
   - > Tier 1: organization
 
@@ -740,7 +738,7 @@ NIST 800-39 Multi-tiered risk management process (strategic risk)
 
   - > includes traceability and transparency of all risk based decisions
 
-NIST 800-37 Risk Management Framework (RMF)
+#### NIST 800-37 Risk Management Framework (RMF)
 
 1.  > Categorize information system
     
@@ -854,7 +852,7 @@ Spanning Tree Analysis - or attack tree
 
   - > [<span class="underline">HSCC’s matrix</span>](https://healthsectorcouncil.org/hic-miso-pdf/) of information sharing organizations
 
-*HCISPP says external risk assessments are best because it’s an impartial reviewer. This is because Infosec and info steward personnel could want to hide issues*
+*The HCISPP exam says that external risk assessments are best because it’s an impartial reviewer. This is because Infosec and info steward personnel could want to hide issues*
 
 **T.V.L.I**. = threats \* vulnerabilities \* likelihood \* impact
 
@@ -902,7 +900,7 @@ Written for implementation of HIPAA security rule. Dictates encryption of ePHI.
 
   - > Common Privacy and security framework for HIPAA and GDPR
 
-### Assessment Tooling
+### Risk Assessment Tooling
 
 Organizational level HIPAA risk Assessment tooling
 
@@ -910,11 +908,13 @@ Organizational level HIPAA risk Assessment tooling
 
   - > HIMSS Risk Assessment Toolkit (discontinued?)
 
-Application level:
+Other tooling:
 
   - > [<span class="underline">HIMSS application security questionnaire</span>](https://www.himss.org/application-security-questionnaire)
 
   - > [<span class="underline">HIMSS cloud computing risk Assessment</span>](https://www.himss.org/sites/hde/files/d7/HIMSSorg/Content/files/RA05_RA_Cloud_Computing.xlsx)
+
+  - > MITRE [<span class="underline">CVSS rubric for medical devices</span>](https://www.mitre.org/publications/technical-papers/rubric-for-applying-cvss-to-medical-devices)
 
 NHS Data security and protection Toolkit (previously IG Toolkit)
 
@@ -930,11 +930,21 @@ Use risk Assessment data for input to:
 
   - > disaster recovery (DR) plan
 
-[<span class="underline">HSCC’s Operational Continuity Cyber incident</span>](https://healthsectorcouncil.org/occi/) (OCCI) guidance and checklist
+Resources:
+
+  - > [<span class="underline">HSCC’s Operational Continuity Cyber incident</span>](https://healthsectorcouncil.org/occi/) (OCCI) guidance and checklist
+
+  - > MITRE [<span class="underline">Medical Device Cybersecurity Regional Incident Preparedness and Response Playbook</span>](https://www.mitre.org/publications/technical-papers/medical-device-cybersecurity-regional-incident-preparedness-and)
 
 **SAR** - suspicious activity report
 
 **PIR** - post incident review
+
+## Vulnerability Disclosure
+
+HSCC’s Medtech [<span class="underline">Vulnerability Disclosure Toolkit</span>](https://healthsectorcouncil.org/MedtechVulnComms/)
+
+NEMA and HIMSS [<span class="underline">Manufacturer Disclosure Statement for medical device security (MDS2)</span>](https://www.nema.org/standards/view/manufacturer-disclosure-statement-for-medical-device-security)
 
 ## Audits
 
@@ -976,15 +986,19 @@ Destruction of information to reduce storage costs, keep relevant info, speed up
 
 [<span class="underline">HSCC’s supply chain risk management guide</span>](https://healthsectorcouncil.org/HIC-SCRiM-v2/)
 
+NTIA’s [<span class="underline">Software Component Transparency</span>](https://www.ntia.doc.gov/SoftwareTransparency) in Healthcare PoC
+
 ### Vendors
 
-Vendors must comply with HITECH and HIPAA laws
+Vendors must comply via legal contracts
 
-  - > Have language in contract (BAA) w vendor/ business associate agreement
+  - > Have language in business associate contract (BAA) that covers HITECH and HIPAA laws
 
-  - > [<span class="underline">DHS will provide language</span>](https://www.hhs.gov/hipaa/for-professionals/covered-entities/sample-business-associate-agreement-provisions/index.html) for HIPAA BAA
+  - > [<span class="underline">DHS will provide language</span>](https://www.hhs.gov/hipaa/for-professionals/covered-entities/sample-business-associate-agreement-provisions/index.html) for a HIPAA BAA
 
-  - > [<span class="underline">HSCC’s MC2</span>](https://healthsectorcouncil.org/model-contract-language-for-medtech-cybersecurity-mc2/) contract
+Other contracts
+
+  - > [<span class="underline">HSCC’s MC2</span>](https://healthsectorcouncil.org/model-contract-language-for-medtech-cybersecurity-mc2/) contract for device manufacturers and health delivery organizations
 
 Primary organization should create Risk potential for the introducing 3rd party vendor that contains:
 
